@@ -2,6 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('upload/', views.ImageViewSet.as_view(), name='upload'),
+    path('', views.get_dom, name='get_dom'),
 ]
 
